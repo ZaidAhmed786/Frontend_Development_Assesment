@@ -33,7 +33,7 @@ const AppContainer = () => {
   );
 
   return (
-    <div className="main-wrapper min-h-screen">
+    <div className="sm:main-wrapper min-h-screen">
       <Routes>
         <Route path={"/*"} element={<SidebarLayout />}>
           {routingObjects.map((item) => (
